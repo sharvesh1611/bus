@@ -1,0 +1,95 @@
+.bus-booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url('./logo.png');
+    background-size: cover;
+    padding: 20px;
+    height:25em;
+  }
+  
+  .booking-image-container {
+    position: relative;
+  }
+  
+  
+  .booking-image-container .bus-booking-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  h2{
+    margin-left: 20em;
+    margin-top: 4em;
+  }
+  .bus-booking-form {
+    display: flex;
+    margin-left: 30em;
+    flex-direction: column;
+  }
+  
+  .bus-booking-form label {
+    margin-bottom: 5px;
+  }
+  
+  .bus-booking-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  #source{
+    margin-left: 4.35em;
+  }
+  #destination{
+    margin-left: 2em;
+  }
+  #date{
+    margin-left: 5.5em;
+    width:12.5em;
+  }
+  
+  .bus-booking-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bus-booking-form button:hover {
+    background-color: #0056b3;
+  }
+  /* src/Navbar.css */
+
+nav {
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 4em;
+  }
+  a:hover{
+    color:blueviolet;
+  }
+  h1{
+    margin-left: 22em;
+  }
+  
