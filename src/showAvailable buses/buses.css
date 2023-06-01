@@ -34,6 +34,9 @@
    font-size: 25px;
    color:white;
   }
+  span{
+    color:#fcc478;
+  }
   
   table {
     border-collapse: collapse;
