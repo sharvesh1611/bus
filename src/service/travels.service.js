@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-axios.defaults.baseURL='http://localhost:5000';
+axios.defaults.baseURL='http://172.16.1.238:5000';
 const registerUrl='/bus/';
 
 export const findBus=(src,dest,date)=>{
