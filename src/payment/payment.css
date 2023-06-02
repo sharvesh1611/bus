@@ -73,3 +73,7 @@
 .custom-button:active {
   background-color: #3e8e41;
 }
+a{
+  text-decoration: none;
+  color: white;
+}

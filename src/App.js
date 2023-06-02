@@ -37,18 +37,23 @@
 
 
 import React from 'react';
-// import { Routes, Route } from 'react-router-dom';
-// import BusBookingPage from './booking/login';
+import { Routes, Route } from 'react-router-dom';
+// import BusBookingPage from './homePage/homePage';
 // import MyTable from './navigation/nav';
 import Payment from './payment/payment';
+import Otp from './otp/otp';
 const App = () => {
   return (
     <div>
       {/* <Routes>
         <Route  path="/" element={<BusBookingPage />} />
         <Route path="/nav" element={<MyTable />} />
-    </Routes> */}
-    <Payment/>
+   </div> </Routes>  */}
+     {/* <Payment/>  */}
+     <Routes>
+      <Route path='/payment' element={<Payment />}></Route>
+        <Route  path="/otp" element={<Otp />} />
+    </Routes> 
     </div>
     
   );

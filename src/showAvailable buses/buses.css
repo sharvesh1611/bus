@@ -1,0 +1,57 @@
+.table_container {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0 ;
+    border:1px solid black;
+    background-image: url('../assests/bus.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 1500px  black inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .table_container .container{
+    width:700px;
+    height: auto;
+    padding:30px;
+    border:2px solid grey;
+    background-color:rgba(134, 137, 136,0.5) ;
+    box-shadow: 5px 5px 100px  black,5px 5px 100px  black inset;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .heading{
+    text-align: center;
+    margin: 0;
+    padding:20px;
+  }
+  .heading p{
+    margin-top: 10px;
+   font-size: 25px;
+   color:white;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  thead tr{
+    background-color:#0dab84 ;
+  }
+  tbody tr{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+  }
+  tbody tr:hover{
+    background-color: #fcc478 ;
+    color:black;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  

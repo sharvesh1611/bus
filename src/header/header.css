@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width:100vw;
+    height: 75px;
+    background-color: #837c7a ;
+}
+.left{
+    width: 200px;
+}
+.left img{
+    height: 100%;
+    width: 80%;
+}
+.right{
+    padding:10px;
+}
+.right ul li a{
+    color:black;
+}
