@@ -105,7 +105,7 @@ const BusBookingPage = () => {
     findBus(source, destination, date)
       .then((res) => {
         localStorage.setItem('busDetail',JSON.stringify(res.data))
-        navigate('/nav'); // Redirect to '/nav' after form submission
+        navigate('/nav');
       })
       .catch((err) => console.log(err.message));
   };

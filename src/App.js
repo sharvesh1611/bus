@@ -37,17 +37,21 @@
 
 
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import BusBookingPage from './booking/login';
-import MyTable from './navigation/nav';
+// import { Routes, Route } from 'react-router-dom';
+// import BusBookingPage from './booking/login';
+// import MyTable from './navigation/nav';
+import PassengerForm from './seatSelect/seatDetail';
+import SeatSelectionPage from './seatSelect/seatDetail';
 
 const App = () => {
   return (
     <div>
-      <Routes>
+      {/* <Routes>
         <Route  path="/" element={<BusBookingPage />} />
         <Route path="/nav" element={<MyTable />} />
-    </Routes>
+    </Routes> */}
+      <h1>Bus Booking App</h1>
+      <SeatSelectionPage />
     </div>
     
   );

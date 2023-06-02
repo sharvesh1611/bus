@@ -1,7 +1,7 @@
 import React  from 'react';
 
 const MyTable = () => {
-  const data=[{busName:"selva",source:"Adad",destination:"serevb"}];
+  const data=localStorage.getItem('busDetail');
   return (
     <table>
       <thead>
@@ -13,11 +13,12 @@ const MyTable = () => {
       </thead>
       <tbody>
         {data.map((item)=>{
-          <tr key={item.busName}>
+          return(
+          <tr key={item.id}>
             <td>{item.busName}</td>
             <td>{item.source}</td>
             <td>{item.destination}</td>
-          </tr>
+          </tr>)
         })}
       </tbody>
     </table>
