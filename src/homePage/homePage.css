@@ -52,14 +52,14 @@
   
   .bus-booking-form button {
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #0dab84;
     color: #fff;
     border: none;
     cursor: pointer;
   }
   
   .bus-booking-form button:hover {
-    background-color: #0056b3;
+    background-color: #0a8163;
   }
  
 
