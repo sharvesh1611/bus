@@ -34,10 +34,10 @@ const BusBookingPage = () => {
 
   return (
     <div className="bus-booking-container">
-      <div className="booking-details"></div>
+      <div className="booking-details">
       <h2>Bus Booking</h2>
       <form className="bus-booking-form" onSubmit={handleSubmit}>
-        <div>
+        <div className="input-container">
           <label htmlFor="source">Source:</label>
           <input
             type="text"
@@ -46,7 +46,7 @@ const BusBookingPage = () => {
             onChange={handleSourceChange}
           />
         </div>
-        <div>
+        <div className="input-container">
           <label htmlFor="destination">Destination:</label>
           <input
             type="text"
@@ -55,7 +55,7 @@ const BusBookingPage = () => {
             onChange={handleDestinationChange}
           />
         </div>
-        <div>
+        <div className="input-container">
           <label htmlFor="date">Date:</label>
           <input
             type="date"
@@ -66,6 +66,7 @@ const BusBookingPage = () => {
         </div>
         <button type="submit">Book Now</button>
       </form>
+      </div>
     </div>
   );
 };

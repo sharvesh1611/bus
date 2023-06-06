@@ -13,8 +13,33 @@
     width: 80%;
 }
 .right{
-    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right ul li a{
-    color:black;
+    color:#fcc478 ;
 }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 4em;
+  }
+  a:hover{
+    color:blueviolet;
+  }

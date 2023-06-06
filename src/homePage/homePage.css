@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
 .bus-booking-container {
     display: flex;
     flex-direction: column;
@@ -7,90 +11,41 @@
     background-size: cover;
     padding: 20px;
     height:25em;
+    
   }
-
-  
-  .booking-image-container {
-    position: relative;
-  }
-  
-  
-  .booking-image-container .bus-booking-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.booking-details{
+  position :absolute;
+  right:200px;
+  top:200px;
+  padding:20px;
+  text-align: center;  
+  background-color: rgba(131, 124, 122,0.2);
+  border:2px solid #837c7a ;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5),2px 2px 5px rgba(0,0,0,0.5) inset;
+  font-family: 'Poppins';
 }
-  h2{
-    margin-left: 20em;
-    margin-top: 4em;
-  }
-  .bus-booking-form {
-    display: flex;
-    margin-left: 30em;
-    flex-direction: column;
-  }
+.booking-details .bus-booking-form{
+  padding:10px;
   
-  .bus-booking-form label {
-    margin-bottom: 5px;
-  }
-  
-  .bus-booking-form input {
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  #source{
-    margin-left: 4.35em;
-  }
-  #destination{
-    margin-left: 2em;
-  }
-  #date{
-    margin-left: 5.5em;
-    width:12.5em;
-  }
-  
-  .bus-booking-form button {
-    padding: 8px 16px;
-    background-color: #0dab84;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .bus-booking-form button:hover {
-    background-color: #0a8163;
-  }
- 
+}
 
-nav {
-    background-color: #f2f2f2;
-    padding: 5px;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  li {
-    display: inline;
-    margin: 0 5px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 16px;
-    margin-left: 4em;
-  }
-  a:hover{
-    color:blueviolet;
-  }
-  h1{
-    margin-left: 22em;
-  }
-  
+.input-container{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-container input,#date{
+  outline: none;
+  border:2px solid   #b4d0c4 ;
+  border-radius: 5px;
+
+}
+button{
+  background-color: #0dab84 ;
+  margin-top: 10px;
+  width:100%;
+  height: 3em;
+  border-radius: 3px;
+  font-size: 1em;
+}
